@@ -1,0 +1,33 @@
+{
+  "name": "djs-v14-handler",
+  "version": "1.0.0",
+  "description": "djs v14 handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingWithHardik/djs-v14-handler.git"
+  },
+  "keywords": [
+    "djs",
+    "v14",
+    "djs-handler",
+    "CodingWithHardik"
+  ],
+  "author": "CodingWithHardik",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/CodingWithHardik/djs-v14-handler/issues"
+  },
+  "homepage": "https://github.com/CodingWithHardik/djs-v14-handler#readme",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "glob": "^8.0.3",
+    "mongoose": "^6.8.1"
+  }
+}
