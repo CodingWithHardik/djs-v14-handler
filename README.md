@@ -1,2 +1,5 @@
-# djs-v14-handler
-V14 Discord.js Command Handler
+# V14 Discord.js Handler
+Use 
+```console
+npm install
+```
