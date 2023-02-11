@@ -69,5 +69,6 @@ module.exports = async (client) => {
     const { mongodb } = require('../config.json')
     if (!mongodb) return;
 
+    mongoose.set("strictQuery", true)
     mongoose.connect(mongodb).then(() => console.log('Connected to mongodb'));
 }
