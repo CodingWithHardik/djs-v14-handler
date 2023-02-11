@@ -51,7 +51,7 @@ module.exports = async (client) => {
         if (!file?.name) return slashCmdTable.addRow(filename, '❌ -> Missing a help.name, or help.name is not a string.')
         if (!file?.description) return slashCmdTable.addRow(filename, '❌ -> Missing a help.description, or help.description is not a string.')
         client.SlashCommands.set(file.name, file);
-        if (["MESSAGE", "USER"].includes(file.type)) delete file.description;
+        if ([3, 2].includes(file.type)) delete file.description;
         arrayOfSlashCommands.push(file)
         slashCmdTable.addRow(filename,'✅')
     })
